@@ -13,8 +13,12 @@ header.my-header {
     color: white;
 }
 
+main {
+    margin-bottom: 8rem;
+}
+
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
@@ -24,4 +28,12 @@ footer.my-footer {
     background-color: #001534;
     color: white;
     padding: 1.5rem;
+}
+
+.cell {
+    aspect-ratio: 1 / 1;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
