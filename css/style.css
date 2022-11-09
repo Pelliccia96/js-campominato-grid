@@ -13,10 +13,6 @@ header.my-header {
     color: white;
 }
 
-main {
-    margin-bottom: 8rem;
-}
-
 footer {
     position: fixed;
     bottom: 0;
